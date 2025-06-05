@@ -1,10 +1,18 @@
 :root {
-  --base-light: #00ffff;
-  --base-dark: #00008b;
-  --text-color: #ffffff;
-  --text-secondary: rgba(255, 255, 255, 0.7);
-  --border-color: rgba(255, 255, 255, 0.1);
-  --pexels-accent: #53e0d8;
+  --primary: #fafafa;
+  --secondary: #F4E9CD;
+  --accent: #F26B38;
+  --base-light: #F26B38;
+  --base-dark: #fafafa;
+  --border-color: #F4E9CD;
+  --text-color: #312e2d;
+  --text-secondary: #b7a989;
+  --text-accent: #F26B38;
+  --sidebar-bg: #F4E9CD;
+  --card-bg: #fff;
+  --card-shadow: 0 6px 28px rgba(242,107,56,0.07);
+  --timeline-gradient: linear-gradient(to bottom,#F26B38, #F4E9CD 84%);
+  --pexels-accent: #F26B38;
 }
 
 /* PexelsGallery custom styling */
