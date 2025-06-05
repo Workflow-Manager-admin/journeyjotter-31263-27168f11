@@ -21,3 +21,11 @@ webpack compiled successfully
 Compiling...
 Compiled successfully!
 webpack compiled successfully
+Compiling...
+Failed to compile.
+
+Module not found: Error: Can't resolve 'mapbox-gl' in '/home/kavia/workspace/code-generation/journeyjotter-31263-27168f11/journeyjotter/src'
+ERROR in ./src/MapboxMap.js 6:0-33
+Module not found: Error: Can't resolve 'mapbox-gl' in '/home/kavia/workspace/code-generation/journeyjotter-31263-27168f11/journeyjotter/src'
+
+webpack compiled with 1 error
