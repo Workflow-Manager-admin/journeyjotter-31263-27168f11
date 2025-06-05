@@ -41,6 +41,16 @@ function App() {
                 }}
               />
             </div>
+
+            {/* PUBLIC_INTERFACE: Demo PexelsGallery integration – ready to use for photo/video selection in journal entries */}
+            <div style={{marginTop: 28, marginBottom: 8}}>
+              {/* Example: To use the gallery, import and drop <PexelsGallery type="image" /> or type="video" */}
+              {/* See PexelsGallery.js for integration instructions */}
+              <React.Suspense fallback={<div>Loading gallery...</div>}>
+                <PexelsGallery type="image" perPage={12} />
+              </React.Suspense>
+            </div>
+
             <button className="btn btn-large">Button</button>
           </div>
         </div>
@@ -48,5 +58,8 @@ function App() {
     </div>
   );
 }
+
+// Dynamic import for code splitting
+const PexelsGallery = React.lazy(() => import("./PexelsGallery"));
 
 export default App;
