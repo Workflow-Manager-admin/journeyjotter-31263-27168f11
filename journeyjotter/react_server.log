@@ -29,3 +29,41 @@ ERROR in ./src/MapboxMap.js 6:0-33
 Module not found: Error: Can't resolve 'mapbox-gl' in '/home/kavia/workspace/code-generation/journeyjotter-31263-27168f11/journeyjotter/src'
 
 webpack compiled with 1 error
+Compiling...
+Failed to compile.
+
+Module not found: Error: Can't resolve 'mapbox-gl' in '/home/kavia/workspace/code-generation/journeyjotter-31263-27168f11/journeyjotter/src'
+LOG from webpack.FileSystemInfo
+<w> Managed item /home/kavia/workspace/code-generation/journeyjotter-31263-27168f11/journeyjotter/node_modules/mapbox-gl isn't a directory or doesn't contain a package.json (see snapshot.managedPaths option)
++ 13 hidden lines
+
+ERROR in ./src/MapboxMap.js 6:0-33
+Module not found: Error: Can't resolve 'mapbox-gl' in '/home/kavia/workspace/code-generation/journeyjotter-31263-27168f11/journeyjotter/src'
+
+webpack compiled with 1 error
+Compiling...
+Compiled with warnings.
+
+Failed to parse source map from '/home/kavia/workspace/code-generation/journeyjotter-31263-27168f11/journeyjotter/node_modules/mapbox-gl/dist/mapbox-gl.js.map' file: Error: ENOENT: no such file or directory, open '/home/kavia/workspace/code-generation/journeyjotter-31263-27168f11/journeyjotter/node_modules/mapbox-gl/dist/mapbox-gl.js.map'
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in ./node_modules/mapbox-gl/dist/mapbox-gl.js
+Module Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+Failed to parse source map from '/home/kavia/workspace/code-generation/journeyjotter-31263-27168f11/journeyjotter/node_modules/mapbox-gl/dist/mapbox-gl.js.map' file: Error: ENOENT: no such file or directory, open '/home/kavia/workspace/code-generation/journeyjotter-31263-27168f11/journeyjotter/node_modules/mapbox-gl/dist/mapbox-gl.js.map'
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+Failed to parse source map from '/home/kavia/workspace/code-generation/journeyjotter-31263-27168f11/journeyjotter/node_modules/mapbox-gl/dist/mapbox-gl.js.map' file: Error: ENOENT: no such file or directory, open '/home/kavia/workspace/code-generation/journeyjotter-31263-27168f11/journeyjotter/node_modules/mapbox-gl/dist/mapbox-gl.js.map'
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in ./node_modules/mapbox-gl/dist/mapbox-gl.js
+Module Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+Failed to parse source map from '/home/kavia/workspace/code-generation/journeyjotter-31263-27168f11/journeyjotter/node_modules/mapbox-gl/dist/mapbox-gl.js.map' file: Error: ENOENT: no such file or directory, open '/home/kavia/workspace/code-generation/journeyjotter-31263-27168f11/journeyjotter/node_modules/mapbox-gl/dist/mapbox-gl.js.map'
+
+webpack compiled with 1 warning
